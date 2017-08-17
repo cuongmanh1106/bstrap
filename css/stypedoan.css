@@ -400,6 +400,7 @@ font-weight: bold;
    Responsive CSS Portrait Tablet
    ========================================================================== */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
+
 .menu  li a
 {
 	font-size:12px;
@@ -466,7 +467,42 @@ font-weight: bold;
    Responsive CSS Landscape Mobile
    ========================================================================== */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+.hotline{
+       
+    text-align:center;
+	width:100%;
+   
+}
 
+.menu-first
+{
+  	
+	width:100%;
+	padding:0 10%;
+}
+.menu-first ul
+{
+	
+    padding-right: 5px;
+    margin-top: 0;
+}
+.menu-first ul li{
+
+    float: left;
+    display: block;
+    margin-right: 10px;
+}
+.menu-first ul li a{
+
+    font-size: 11px;
+    text-align: center;
+    text-decoration: none;
+    color: black
+}
+.menu-first ul li a:hover
+{
+    color: red;
+}
 
 
 .trai img{
@@ -509,6 +545,41 @@ font-weight: bold;
    Responsive CSS Portrait Mobile
    ========================================================================== */
 @media only screen and (min-width: 100px) and (max-width: 479px) {
+.hotline{
+       
+    text-align:center;
+	width:100%;
+   
+}
+.menu-first
+{
+  	
+	width:100%;
+	padding:0 5%;
+}
+.menu-first ul
+{
+	
+    padding-right: 0px;
+    margin-top: 0;
+}
+.menu-first ul li{
+
+    float: left;
+    display: block;
+    margin-right: 5px;
+}
+.menu-first ul li a{
+
+    font-size: 9px;
+    text-align: center;
+    text-decoration: none;
+    color: black
+}
+.menu-first ul li a:hover
+{
+    color: red;
+}
 .new_product .cap
 {
     float: right;
