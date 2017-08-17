@@ -1,3 +1,8 @@
+
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+   
 body{
     margin: 0;
     font-family: Roboto;
@@ -164,8 +169,7 @@ font-weight: bold;
     opacity: 0.8;
 }
 .ao .ao-thun a img{
-    width: 288px;
-    height: 360px;
+    
 }
 
 /*.new_product
@@ -237,11 +241,13 @@ font-weight: bold;
 .trai
 {
 	float:left;
+	width:100%;
+	
 	
 }
 .trai img{
-	width:165px;
-	height:auto;
+	
+	
 	border-radius:7px;
 	margin-top:10px;
 	transition:all 1s;
@@ -255,7 +261,7 @@ font-weight: bold;
 	box-shadow:0px 0px 6px #CCCCCC;
 }
 
-.show:hover .left a img
+.show:hover .trai a img
 {
 	transform:scale(1.1);
 }
@@ -263,6 +269,7 @@ font-weight: bold;
 .right
 {
 	float:right;
+	width:100%
 	
 }
 .right a p 
@@ -375,4 +382,153 @@ font-weight: bold;
 .tags li a:hover
 {
 	background-color:#FFC05B;
+} 
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+	
+.search input[type="text"]
+{
+	
+	width:170px;
+
+}
+
+
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.menu  li a
+{
+	font-size:12px;
+}
+.brand
+{
+	width:110px;
+	background:url(../img/1.jpg) top left;
+	background-size:cover;
+	
+	
+}
+.search input[type="text"]
+{
+	font-size:12px;
+	width:85px;
+	height:30px;
+}
+.search input[type="submit"]
+{
+	text-align:left;
+	width:50px;
+	font-size:10px;
+}
+.trai
+{
+	
+}
+.trai img{
+	width:100%;
+	margin-top:15px;
+
+}
+.right
+{
+	float:right;
+	
+	
+}
+.right a p 
+{
+	
+	
+	margin-top:15px;
+	font-size:12px;
+
+}
+
+.right h4
+{
+	
+	font-size:13px;
+}
+.right a
+{
+	width:100px;
+	font-size:10px;
+}
+
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+.trai img{
+	width:50%;
+	margin-top:15px;
+
+}
+.right
+{
+	float:right;
+	width:100%;
+	
+	
+}
+.right a p 
+{
+	
+	
+	margin-top:15px;
+	
+
+}
+
+.footer_newsletter form #sbmit
+{
+	width:40%;
+	border:1px solid #d28409;
+	border-radius:5px;
+	font-size:12px;
+	color:#FFF;
+	padding:22px;
+	line-height:0px;
+	margin-right:5px;
+	background-color:#F5A019;
+}
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+.new_product .cap
+{
+    float: right;
+    width:100%;
+}
+.new_product .cap li{
+}
+
+.new_product .cap li a{
+    font-size: 13px;
+}
+.footer_newsletter form #sbmit
+{
+	width:40%;
+	font-size:9px;
+	
+	
+	
+	
+	
+
+}
 }
